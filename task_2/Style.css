@@ -1,0 +1,223 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('bg.jpg'); /* Replace with your image file name */
+  background-size: cover;      /* Make the image cover the whole page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  font-family: Arial, sans-serif;
+  color: rgb(239, 233, 233); /* Optional: change text color to make it readable */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #a2001d; /* Red KFC-style color */
+  color: white;
+  justify-content: space-between;
+}
+
+.navbar .logo img {
+  width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.menu-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.menu-item {
+  background: #d11717;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.03);
+}
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.menu-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.content{
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 8px;
+    padding:20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  /* subtle shadow */
+     
+    
+}
+
+/* ..............section part ..............*/
+.offers {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.offers h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.offer-card {
+  background: #f8f3f3;
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 260px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.offer-card:hover {
+  transform: scale(1.03);
+}
+
+.offer-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.offer-card h3 {
+  font-size: 1.1em;
+  margin: 10px 0 5px;
+}
+
+.offer-card p {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.offer-card a {
+  color: #000;
+  font-size: 0.85em;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.offer-card button {
+  background-color: black;
+  color: rgb(215, 208, 208);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* ...................COMBO SECTION........... */
+
+.combos {
+  background-color: #f10606;
+  padding: 40px;
+  text-align: center;
+}
+
+.combos h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
+  color: #f6f5f5;
+}
+
+.combo-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.combo-card {
+  background: white;
+  width: 260px;
+  border-radius: 12px;
+  border:red;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.combo-card:hover {
+  transform: translateX(10px);
+}
+
+.combo-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.combo-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.combo-card p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.combo-card button {
+  margin-top: 10px;
+  background-color: #c8102e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
