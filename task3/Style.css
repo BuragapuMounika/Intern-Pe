@@ -1,0 +1,110 @@
+style.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:aliceblue
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.status-container {
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid rgb(132, 94, 230);
+    text-align: center;
+}
+
+.details h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.details p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.status-number {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.status-number p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(94, 14, 243);
+    width: 200px;
+    flex:1;
+    background-color: rgb(9, 8, 9);
+    color:aliceblue
+
+}
+#progress-bar{
+    width:80%;
+    height:10px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#progress{
+    width: 80%;
+    height:  10px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    transition:  all 0.3s ease;
+}
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: rgb(92, 48, 251);
+    border: none;
+    cursor:pointer;
+    border-radius: 40px;
+    display:flex;
+}
+
+.tasklist {
+    margin-top: 20px;
+    list-style: none;
+    color: white;
+}
